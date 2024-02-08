@@ -455,7 +455,7 @@ GameObject:
   - component: {fileID: 943631467}
   - component: {fileID: 943631471}
   - component: {fileID: 943631470}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
