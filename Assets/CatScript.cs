@@ -20,7 +20,7 @@ public class CatScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) == true && catIsAlive == true)
+        if (Input.GetKeyDown(KeyCode.Space) && catIsAlive)
         {
             myRigidbody2D.velocity = Vector2.up * flapStrength; 
         }
@@ -30,6 +30,6 @@ public class CatScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         logic.gameOver();
-        birdIsAlive = false;
+        catIsAlive = false;
     }
 }
