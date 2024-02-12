@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Frist project.sln"
+    "dotnet.defaultSolution": "Cat-Game.sln"
 }
